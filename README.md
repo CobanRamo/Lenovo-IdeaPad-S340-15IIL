@@ -17,3 +17,29 @@ Card reader  | Working
 Network Card  | BCM94360NG
 TouchPad  | Fully Fuctional
 
+
+
+To activate the Debug Bios;
+
+Enter BIOS → disable OneKeyBattery → save and exit. 
+Poweroff the laptop. 
+Power button to turn on → F2 to enter the normal BIOS → Power button to turn off → then press, moving fast, the following keys in sequence
+
+     F1 → 1 → Q → A → Z
+     
+     F2 → 2 → W → S → X
+     
+     F3 → 3 → E → D → C
+     
+     F4 → 4 → R → F → V
+     
+     F5 → 5 → T → G → B
+     
+     F6 → 6 → Y → H → N
+     
+Turn on the power button → F2 enters the hidden Debug BIOS. 
+
+Then go to;
+Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
+
+save and exit.
