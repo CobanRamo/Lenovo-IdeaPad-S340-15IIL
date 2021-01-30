@@ -2,6 +2,8 @@
 Lenovo IdeaPad S340-15IIL IceLake with OpenCore
 Part Number : 81VW00C4GE
 
+Can be used for Catalina & Big Sur
+
 <img src="/Pictures/Lenovo IdeaPad S340-15IIL IceLake.png" alt="My cool HackBook"/>
 
 
@@ -46,3 +48,15 @@ Then go to;
 Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
 
 save and exit.
+
+
+Pictures;
+
+<img src="/Pictures/SystemPrefences.png" alt="My cool HackBook"/>
+<img src="/Pictures/Graphic.png" alt="My cool HackBook"/>
+<img src="/Pictures/Audio.png" alt="My cool HackBook"/>
+<img src="/Pictures/Bluetooth.png" alt="My cool HackBook"/>
+<img src="/Pictures/USB.png" alt="My cool HackBook"/>
+<img src="/Pictures/Batterie.png" alt="My cool HackBook"/>
+<img src="/Pictures/TouchPad.png" alt="My cool HackBook"/>
+
