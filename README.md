@@ -2,6 +2,8 @@
 Lenovo IdeaPad S340-15IIL IceLake with OpenCore
 Part Number : 81VW00C4GE
 
+https://github.com/CobanRamo/Lenovo-IdeaPad-S340-15IIL/blob/main/Lenovo%20IdeaPad%20S340-15IIL%20IceLake.png
+
 The specs of the machine are:
 
 Specifications  | Details
