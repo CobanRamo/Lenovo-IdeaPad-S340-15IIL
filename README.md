@@ -1,2 +1,2 @@
 # Lenovo-IdeaPad-S340-15IIL
-Lenovo IdeaPad S340-15IIL IceLake 
+Lenovo IdeaPad S340-15IIL IceLake with OpenCore
