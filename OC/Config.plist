@@ -5,7 +5,7 @@
 	<key>#Information 1</key>
 	<string>This is a config.plist for Lenovo S340-15IIL IceLake by Cobanramo</string>
 	<key>#Information 2</key>
-	<string>OpenCore v0.6.6 Nightly Config for "IceLake SMBIOS MacBookPro16,2"</string>
+	<string>OpenCore v0.6.5 Nightly Config for "IceLake SMBIOS MacBookPro16,2"</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -477,6 +477,55 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>##PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				AgBRig==
+				</data>
+				<key>device-id</key>
+				<data>
+				UooAAA==
+				</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
+				<key>enable-backlight-registers-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-cdclk-frequency-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>force-online</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>igfxfw</key>
+				<data>
+				AgAAAA==
+				</data>
+				<key>model</key>
+				<string>Intel Iris Plus Graphics G7</string>
+				<key>rebuild-device-tree</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>rps-control</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>device_type</key>
@@ -1437,7 +1486,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>Windows 10 Pro (20H2)</string>
 				<key>Path</key>
@@ -1455,7 +1504,7 @@
 				<key>Comment</key>
 				<string>Not signed for security reasons</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Name</key>
 				<string>Ubuntu 20.04 LTS (FF)</string>
 				<key>Path</key>
@@ -1831,7 +1880,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1</string>
+				<string>-v keepsyms=1 -noDC9</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -1906,14 +1955,14 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			<string>C02002701GU0000JC</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
 			<data>
-			ESIzRFVm
+			YG3HxlO7
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1922,9 +1971,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>xxxxxxxxxxxxxxxx</string>
+			<string>C02C33Z8ML7H</string>
 			<key>SystemUUID</key>
-			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			<string>6005E0AF-BC7F-4286-83F6-7C110F6C57FE</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
