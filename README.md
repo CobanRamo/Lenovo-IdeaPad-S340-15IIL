@@ -26,6 +26,9 @@ There are still a few small blemishes that I haven't been able to solve yet.
 see Issues.
 
 
+
+
+
 To activate the Debug Bios;
 
 Enter BIOS → disable OneKeyBattery → save and exit. 
