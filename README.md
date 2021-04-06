@@ -22,6 +22,8 @@ Card reader  | Working
 Network Card  | BCM94360NG
 TouchPad  | Fully Fuctional
 
+There are still a few small blemishes that I haven't been able to solve yet.
+see Issues.
 
 
 To activate the Debug Bios;
