@@ -5,7 +5,7 @@
 	<key>#Information 1</key>
 	<string>This is a config.plist for Lenovo S340-15IIL IceLake by Cobanramo</string>
 	<key>#Information 2</key>
-	<string>OpenCore v0.6.8 Nightly Config for "IceLake SMBIOS MacBookPro16,2"</string>
+	<string>OpenCore v0.6.8 Release Config for "IceLake SMBIOS MacBookPro16,2"</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -514,6 +514,10 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
+				<key>AAPL,GfxYTile</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>
 				AQBcig==
@@ -524,19 +528,15 @@
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>dpcd-max-link-rate</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>enable-backlight-registers-fix</key>
 				<data>
 				AQAAAA==
 				</data>
 				<key>enable-cdclk-frequency-fix</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-dpcd-max-link-rate-fix</key>
 				<data>
 				AQAAAA==
 				</data>
