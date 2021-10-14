@@ -2,7 +2,7 @@
 Lenovo IdeaPad S340-15IIL IceLake with OpenCore
 Part Number : 81VW00C4GE
 
-Can be used for Catalina & Big Sur
+Can be used for Catalina, Big Sur & Monterey
 
 <img src="/Pictures/Lenovo IdeaPad S340-15IIL IceLake.png" alt="My cool HackBook"/>
 
