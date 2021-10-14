@@ -5,9 +5,7 @@ Part Number : 81VW00C4GE
 Can be used for Catalina, Big Sur & Monterey
 
 ```diff
-- Warning, it seems that the latest Uefi/Bios version has problems to start.
-- CUCN27WWV1.16 has problem, do not upgrade the Bios yet.
-- Last working version is currently CUCN26WW_70WW
+- Last working Bios version is currently CUCN27WW_71WW
 
 ```
 
