@@ -5,14 +5,16 @@
 	<key>#Information 1</key>
 	<string>This is a config.plist for Lenovo S340-15IIL IceLake by Cobanramo</string>
 	<key>#Information 2</key>
-	<string>OpenCore v0.7.4 Release Config for "IceLake SMBIOS MacBookPro16,2"</string>
+	<string>OpenCore v0.7.8 Nigtly Config for "IceLake SMBIOS MacBookPro16,2"</string>
+	<key>#Information 3</key>
+	<string>commit d246944bb09f0189455f8174ca14e38909cfbe8d</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Automatic Light Sensor (BULK)</string>
+				<string>Automatic Light Sensor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -28,7 +30,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-DMAC to Enable the VT-d in BIOS and Disable the DisableIoMapper=NO</string>
+				<string>SSDT-DMAC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -92,7 +94,44 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+			<dict>
+				<key>All</key>
+				<false/>
+				<key>Comment</key>
+				<string>Delete CpuPm</string>
+				<key>Enabled</key>
+				<false/>
+				<key>OemTableId</key>
+				<data>
+				Q3B1UG0AAAA=
+				</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				U1NEVA==
+				</data>
+			</dict>
+			<dict>
+				<key>All</key>
+				<false/>
+				<key>Comment</key>
+				<string>Delete Cpu0Ist</string>
+				<key>Enabled</key>
+				<false/>
+				<key>OemTableId</key>
+				<data>
+				Q3B1MElzdAA=
+				</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				U1NEVA==
+				</data>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -295,7 +334,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
-			<true/>
+			<false/>
 			<key>NormalizeHeaders</key>
 			<false/>
 			<key>RebaseRegions</key>
@@ -303,7 +342,7 @@
 			<key>ResetHwSig</key>
 			<false/>
 			<key>ResetLogoStatus</key>
-			<true/>
+			<false/>
 			<key>SyncTableIds</key>
 			<false/>
 		</dict>
@@ -380,7 +419,7 @@
 				<key>Address</key>
 				<integer>4284481536</integer>
 				<key>Comment</key>
-				<string>MMIO 0xFF600000 (0xA00 pages, 0x8000000000000001) Whitout this Adress wont start the laptop</string>
+				<string>MMIO 0xFF600000 (0xA00 pages, 0x8000000000000001)</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -452,6 +491,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<false/>
 			<key>SignalAppleOS</key>
@@ -862,6 +903,24 @@
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string>BlueToolFixup for only Monterey</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
 				<string>VoodooGPIO</string>
@@ -902,7 +961,7 @@
 				<key>Comment</key>
 				<string>VoodooInput</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
@@ -992,7 +1051,7 @@
 				<key>Comment</key>
 				<string>VoodooInput Driver</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/VoodooInput</string>
 				<key>MaxKernel</key>
@@ -1044,7 +1103,7 @@
 				<key>BundlePath</key>
 				<string>RealtekCardReaderFriend.kext</string>
 				<key>Comment</key>
-				<string>Realtek "RTSX" SDHC Card Readers</string>
+				<string>Realtek "RTSX" SDHC Card Readers (RTS522A)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1062,7 +1121,7 @@
 				<key>BundlePath</key>
 				<string>RealtekCardReader.kext</string>
 				<key>Comment</key>
-				<string>Realtek "RTSX" SDHC Card Readers</string>
+				<string>Realtek "RTSX" SDHC Card Readers (RTS522A)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1440,7 +1499,7 @@
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
 			<key>ThirdPartyDrives</key>
-			<false/>
+			<true/>
 			<key>XhciPortLimit</key>
 			<false/>
 		</dict>
@@ -1473,7 +1532,7 @@
 			<key>LauncherPath</key>
 			<string>Default</string>
 			<key>PickerAttributes</key>
-			<integer>145</integer>
+			<integer>147</integer>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
@@ -1539,7 +1598,7 @@
 			<data>
 			</data>
 			<key>ScanPolicy</key>
-			<integer>28917507</integer>
+			<integer>32513</integer>
 			<key>SecureBootModel</key>
 			<string>Default</string>
 			<key>Vault</key>
@@ -1547,6 +1606,46 @@
 		</dict>
 		<key>Tools</key>
 		<array>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>OpenCore-configured UEFI Shell for compatibility with a broad range of firmwares.</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>OpenShell:UEFIShell:Shell</string>
+				<key>Name</key>
+				<string>UEFI OpenCore Shell</string>
+				<key>Path</key>
+				<string>OpenShell.efi</string>
+				<key>RealPath</key>
+				<true/>
+				<key>TextMode</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<true/>
+				<key>Comment</key>
+				<string>Memory testing utility</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Flavour</key>
+				<string>MemTest</string>
+				<key>Name</key>
+				<string>memtest86</string>
+				<key>Path</key>
+				<string>memtest86/BOOTX64.efi</string>
+				<key>RealPath</key>
+				<true/>
+				<key>TextMode</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>Arguments</key>
 				<string></string>
@@ -1693,26 +1792,6 @@
 				<key>Auxiliary</key>
 				<true/>
 				<key>Comment</key>
-				<string>Memory testing utility (Achtung, fehlt unter Tools)</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Flavour</key>
-				<string>Auto</string>
-				<key>Name</key>
-				<string>MemTest86</string>
-				<key>Path</key>
-				<string>memcheck/memcheck.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
 				<string>Unlock and lock back NVRAM protection for other tools to be able to get full NVRAM access when launching from OpenCore.</string>
 				<key>Enabled</key>
 				<false/>
@@ -1722,26 +1801,6 @@
 				<string>OpenControl</string>
 				<key>Path</key>
 				<string>OpenControl.efi</string>
-				<key>RealPath</key>
-				<false/>
-				<key>TextMode</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>Arguments</key>
-				<string></string>
-				<key>Auxiliary</key>
-				<true/>
-				<key>Comment</key>
-				<string>OpenCore-configured UEFI Shell for compatibility with a broad range of firmwares.</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Flavour</key>
-				<string>OpenShell:UEFIShell:Shell</string>
-				<key>Name</key>
-				<string>UEFI OpenCore Shell</string>
-				<key>Path</key>
-				<string>OpenShell.efi</string>
 				<key>RealPath</key>
 				<false/>
 				<key>TextMode</key>
@@ -1879,10 +1938,6 @@
 				<data>
 				AAAAAA==
 				</data>
-				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
 			</dict>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
 			<dict>
@@ -1898,10 +1953,6 @@
 				<data>
 				/w8AAA==
 				</data>
-				<key>EnableTRIM</key>
-				<data>
-				AQ==
-				</data>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
@@ -1916,6 +1967,7 @@
 				</data>
 				<key>prev-lang:kbd</key>
 				<data>
+				ZGU6Mw==
 				</data>
 				<key>run-efi-updater</key>
 				<string>No</string>
@@ -1925,7 +1977,6 @@
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
-				<string>UIScale</string>
 				<string>DefaultBackgroundColor</string>
 			</array>
 			<key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
@@ -2044,6 +2095,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerPollMask</key>
+			<integer>-1</integer>
+			<key>PointerPollMax</key>
+			<integer>80</integer>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -2055,19 +2112,23 @@
 			<integer>0</integer>
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
-			<key>AudioOut</key>
-			<integer>0</integer>
+			<key>AudioOutMask</key>
+			<integer>1</integer>
 			<key>AudioSupport</key>
 			<true/>
-			<key>MinimumVolume</key>
-			<integer>20</integer>
+			<key>DisconnectHda</key>
+			<false/>
+			<key>MaximumGain</key>
+			<integer>-15</integer>
+			<key>MinimumAssistGain</key>
+			<integer>-30</integer>
+			<key>MinimumAudibleGain</key>
+			<integer>-55</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
-			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
 		<key>ConnectDrivers</key>
@@ -2120,7 +2181,7 @@
 				<key>Comment </key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>AudioDxe.efi</string>
 			</dict>
@@ -2236,13 +2297,23 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>flags=0x0000038E</string>
 				<key>Comment </key>
-				<string></string>
+				<string>Linux Boot Loader mit deaktivierter ESP scan Flag</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>OpenLinuxBoot.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment </key>
+				<string>5227 Series PCI Express Card Reader (RTS522A) Bootable from OC</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>Rts5227S.efi</string>
 			</dict>
 		</array>
 		<key>Input</key>
@@ -2258,7 +2329,7 @@
 			<key>KeySwap</key>
 			<false/>
 			<key>PointerSupport</key>
-			<false/>
+			<true/>
 			<key>PointerSupportMode</key>
 			<string>ASUS</string>
 			<key>TimerResolution</key>
@@ -2280,6 +2351,8 @@
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
@@ -2290,6 +2363,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UIScale</key>
+			<integer>0</integer>
 			<key>UgaPassThrough</key>
 			<false/>
 		</dict>
@@ -2340,6 +2415,8 @@
 			<false/>
 			<key>EnableVectorAcceleration</key>
 			<true/>
+			<key>EnableVmx</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
@@ -2354,6 +2431,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
