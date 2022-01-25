@@ -1,0 +1,823 @@
+2021-12-12 15:24:10 - Attempting to retrieve the root directory of the data partition.
+2021-12-12 15:24:10 - Found 22 handles that supported SimpleFileSystem
+2021-12-12 15:24:10 - Checking handle 0 (92A44918)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(1), Start LBA(40), Num Sectors(409600)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 1 (92A2DF98)
+2021-12-12 15:24:10 - Handle is own partition
+2021-12-12 15:24:10 - Checking handle 2 (92570B98)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(3), Start LBA(2312192), Num Sectors(314572809)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 3 (9256F918)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(6), Start LBA(524144640), Num Sectors(169871360)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 4 (91FCEA18)
+2021-12-12 15:24:10 - Checking handle 5 (91FBB918)
+2021-12-12 15:24:10 - Checking handle 6 (91FB8918)
+2021-12-12 15:24:10 - Checking handle 7 (91FB7A98)
+2021-12-12 15:24:10 - Checking handle 8 (91F98A98)
+2021-12-12 15:24:10 - Checking handle 9 (92A32918)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(2), Start LBA(409856), Num Sectors(976363279)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 10 (92570918)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(4), Start LBA(316887040), Num Sectors(102400000)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 11 (9256F298)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(5), Start LBA(419287040), Num Sectors(104857600)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 12 (8E806C98)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 13 (8E7EB818)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 14 (8E7E3F18)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 15 (8E7E4B98)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 16 (8E797198)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 17 (8E790818)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 18 (8E797518)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 19 (8E740B18)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 20 (8E728B18)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - Checking handle 21 (8E717618)
+2021-12-12 15:24:10 - HD node found: MBR type(2), Signature type(2), Part #(7), Start LBA(694016000), Num Sectors(1259509128)
+2021-12-12 15:24:10 - Self node: MBR type(2), Signature type(2), Part #(1), Start LBA(34), Num Sectors(2048000)
+2021-12-12 15:24:10 - [FS0]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/NVMe(0x1,08-1D-B0-71-55-38-25-00)/HD(1,GPT,06255867-A821-4EE5-8D6D-A96325351B78,0x28,0x64000)
+2021-12-12 15:24:10 - Label: "EFI", Mode: RW, Free space: 196 MB / 196 MB (0%)
+2021-12-12 15:24:10 - [FS1]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(1,GPT,9D4F51E0-D113-46E4-A44A-1C93DF8333F4,0x22,0x1F4000)
+2021-12-12 15:24:10 - Label: "EFI", Mode: RW, Free space: 937 MB / 998 MB (0%)
+2021-12-12 15:24:10 - [FS2]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(3,GPT,5939CC83-3552-4DFD-B945-E9E67822B477,0x234800,0x12C00009)
+2021-12-12 15:24:10 - Label: "Windows 10 Pro", Mode: RO, Free space: 0 MB / 153600 MB (0%)
+2021-12-12 15:24:10 - [FS3]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(6,GPT,3E051584-67C6-463F-84BD-4C2517D1FD13,0x1F3DD000,0xA200800)
+2021-12-12 15:24:10 - Label: "Windows 11 Pro", Mode: RO, Free space: 0 MB / 82944 MB (0%)
+2021-12-12 15:24:10 - [FS4]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0xFFFF,0x0)/HD(1,GPT,D28A5EA2-0B2E-472B-A634-C9443ED30096,0x28,0x64000)
+2021-12-12 15:24:10 - Label: "EFI", Mode: RW, Free space: 196 MB / 196 MB (0%)
+2021-12-12 15:24:10 - [FS5]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x2,0xFFFF,0x0)/HD(1,GPT,F9600D7D-8870-4EB0-9C14-B0224CB40939,0x28,0x64000)
+2021-12-12 15:24:10 - Label: "EFI", Mode: RW, Free space: 196 MB / 196 MB (0%)
+2021-12-12 15:24:10 - [FS6]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x3,0xFFFF,0x0)/HD(1,GPT,42DC57A8-1A8E-42A5-8358-87150519CD8D,0x28,0x64000)
+2021-12-12 15:24:10 - Label: "EFI", Mode: RW, Free space: 196 MB / 196 MB (0%)
+2021-12-12 15:24:10 - [FS7]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,52E84B19-A7D2-4DCC-9ACA-86678F72967C,0x64800,0x1D161000)
+2021-12-12 15:24:10 - Label: "SSD 840 EVO", Mode: RO, Free space: 238262 MB / 238265 MB (0%)
+2021-12-12 15:24:10 - [FS8]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x3,0xFFFF,0x0)/HD(2,GPT,B22D8BAD-7767-48FE-AAA0-8CF4651A0157,0x64028,0x74662D60)
+2021-12-12 15:24:10 - Label: "Time Machine", Mode: RO, Free space: 320315 MB / 953541 MB (0%)
+2021-12-12 15:24:10 - [FS9]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)/NVMe(0x1,08-1D-B0-71-55-38-25-00)/HD(2,GPT,BADC10B8-82EA-4195-B10F-AD49E89F3C8F,0x64100,0x3A321F0F)
+2021-12-12 15:24:10 - Label: "VMWare", Mode: RO, Free space: 422607 MB / 476723 MB (0%)
+2021-12-12 15:24:10 - [FS10]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(4,GPT,D4C93934-3727-4EA9-9A2B-70FCAE4DF3B6,0x12E35000,0x61A8000)
+2021-12-12 15:24:10 - Label: "Ubuntu", Mode: RO, Free space: 36985 MB / 50000 MB (0%)
+2021-12-12 15:24:10 - [FS11]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(5,GPT,691A7104-C59D-4988-B91D-D302CDCE8847,0x18FDD000,0x6400000)
+2021-12-12 15:24:10 - Label: "DATA", Mode: RO, Free space: 45273 MB / 51197 MB (0%)
+2021-12-12 15:24:10 - [FS12]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,67F6186321AEE6429A9B03E49BEF53BD)
+2021-12-12 15:24:10 - Label: "Preboot", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS13]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,16439364D62FC544B4FF09BD40A7DBDF)
+2021-12-12 15:24:10 - Label: "Big Sur - Daten", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS14]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,07FD6F8ED3CB5E41993F240B41DC8961)
+2021-12-12 15:24:10 - Label: "Monterey - Data", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS15]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,5C149954EBDB5248ADDA9E58DFF867B5)
+2021-12-12 15:24:10 - Label: "Recovery", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS16]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,589F80120C33B64BBAC707FDF05C2F5E)
+2021-12-12 15:24:10 - Label: "VM", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS17]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1209A87561958045A8005F9039BD446F)
+2021-12-12 15:24:10 - Label: "Catalina - Daten", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS18]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1FF133993877B2448ED00A6E46522AC9)
+2021-12-12 15:24:10 - Label: "Big Sur", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS19]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,A0C6ACA24E7BE84BA8BAD5662439CA7D)
+2021-12-12 15:24:10 - Label: "Update", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS20]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,1B0E5DE525C07E4C9371A93D7552C1D7)
+2021-12-12 15:24:10 - Label: "Catalina", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - [FS21]
+2021-12-12 15:24:10 - PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)/NVMe(0x1,77-3F-31-46-4A-44-1B-00)/HD(7,GPT,E2C39291-7A3B-43C2-AD69-F12D3DE39A5B,0x295DD800,0x4B129588)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,30127045508DD846B229A56BD6B1EED5)
+2021-12-12 15:24:10 - Label: "Monterey", Mode: RW, Free space: 361180 MB / 614994 MB (0%)
+2021-12-12 15:24:10 - Disabling watchdog timer (Result: Success)
+2021-12-12 15:24:10 - Found Simple Network protocol.
+2021-12-12 15:24:10 - HW addr size: 6
+2021-12-12 15:24:10 - CurrentAddress: D8:BB:C1:04:01:AD
+2021-12-12 15:24:10 - PermanentAddress: D8:BB:C1:04:01:AD
+2021-12-12 15:24:10 - =============================================
+2021-12-12 15:24:10 - MemTest86 V9.1 Free Build: 1000 (64-bit)
+2021-12-12 15:24:10 - =============================================
+2021-12-12 15:24:10 - SMBIOS BIOS INFO Vendor: "Acidanthera", Version: "1715.40.15.0.0", Release Date: "10/03/2021"
+2021-12-12 15:24:10 - SMBIOS SYSTEM INFO Manufacturer: "Acidanthera", Product: "iMac20,2", Version: "1.0", S/N: "C02C300R046M", SKU: "", Family: ""
+2021-12-12 15:24:10 - SMBIOS: Found SMBIOS BaseboardInformation (pbLinAddr=0x9866D088, FormattedLen=15, iTotalLen=76)
+2021-12-12 15:24:10 - SMBIOS BASEBOARD INFO Manufacturer: "Acidanthera", Product: "Mac-AF89B6D9451A490B", Version: "iMac20,2", S/N: "C02002130GU0000JA", AssetTag: "", LocationInChassis: ""
+2021-12-12 15:24:10 - EFI Specifications: 2.70
+2021-12-12 15:24:10 - Found blacklist file
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-F42C88C8" (BIOS: "", FLAGS: 1) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-F4238CC8" (BIOS: "", FLAGS: 8) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-F4208DC8" (BIOS: "", FLAGS: 8) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-27ADBB7B4CEE8E61" (BIOS: "", FLAGS: 20) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-7BA5B2DFE22DDD8C" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-AF89B6D9451A490B" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-CFF7D910A743CAAF" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-AA95B1DDAB278B95" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Mac-27AD2F918AE68F61" (BIOS: "", FLAGS: 40) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "80AF" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z97MX-Gaming 5" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z170MX-Gaming 5" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z170X-Gaming 3" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z170X-Gaming 7" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z170X-Gaming GT" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z170X-UD3-CF" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z170-HD3P" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "990FXA-UD3" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "970A-DS3P" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-Ultra Gaming-CF" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "M5A97 R2.0" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "M5A97 EVO R2.0" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "M5A99FX PRO R2.0" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "M5A99X EVO R2.0" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-A" (BIOS: "3701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-A/USB 3.1" (BIOS: "3701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-A II" (BIOS: "1701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-A" (BIOS: "1701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Sabertooth X99" (BIOS: "3701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "SABERTOOTH 990FX R2.0" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "SABERTOOTH 990FX R3.0" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "STRIX X99 GAMING" (BIOS: "1701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-DELUXE" (BIOS: "3701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X99-DELUXE II" (BIOS: "1701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "RAMPAGE V EXTREME" (BIOS: "3701", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "MAXIMUS VIII RANGER" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Z10PE-D8 WS" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X9DRW" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X9DRW-3LN4F+/X9DRW-3TF+" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X9DRi-LN4+/X9DR3-LN4+" (BIOS: "", FLAGS: 40) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X9DR3-F" (BIOS: "", FLAGS: 40) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X9SRL-F" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X9DRD-iF" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "151-BE-E097" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "131-HE-E095" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "131-HE-E095-KR" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "151-HE-E999-KR" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "PRIME B350-PLUS" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "PRIME X370-PRO" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "CROSSHAIR VI HERO" (BIOS: "1602", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "CROSSHAIR V FORMULA-Z" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "ROG STRIX X370-F GAMING" (BIOS: "4012", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "OEMSH Product" (BIOS: "", FLAGS: 8) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "LNVNB161216" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "GA-990FX-GAMING" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "X399 SLI PLUS (MS-7B09)" (BIOS: "", FLAGS: 2) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "0F685W" (BIOS: "", FLAGS: 80) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "ProLiant DL325 Gen10" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "ProLiant DL385 Gen10" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "ProLiant DL385 Gen10 Plus" (BIOS: "", FLAGS: 4) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "06CDVY" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Surface Book" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Surface Book 2" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Surface Pro" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Surface Pro 7" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "Surface Pro" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "MACH-WX9-PCB" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "MACH-WX9" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] Adding "8873" (BIOS: "", FLAGS: 10) to blacklist
+2021-12-12 15:24:10 - [BLACKLIST] 69 boards added to blacklist
+2021-12-12 15:24:10 - Detected blacklisted baseboard (Product Name: "Mac-AF89B6D9451A490B", BIOS version: "1715.40.15.0.0")
+2021-12-12 15:24:10 - MemTest86 has detected a baseboard that has known multiprocessor issues. Multiprocessor support shall be completely disabled
+2021-12-12 15:24:10 - Console Control protocol workaround enabled
+2021-12-12 15:24:10 - Number of console modes: 1
+2021-12-12 15:24:10 - Mode 0: 428 x 88
+2021-12-12 15:24:10 - Initializing localization strings
+2021-12-12 15:24:10 - Language en-US is supported
+2021-12-12 15:24:10 - Language fr-FR is supported
+2021-12-12 15:24:10 - Language it-IT is supported
+2021-12-12 15:24:10 - Language es-AR is supported
+2021-12-12 15:24:10 - GetGlyph failed for character 0x00C3 (Warning Unknown Glyph)
+2021-12-12 15:24:10 - Language pt-BR is not supported
+2021-12-12 15:24:10 - Language ca-ES is supported
+2021-12-12 15:24:10 - Language de-DE is supported
+2021-12-12 15:24:10 - GetGlyph failed for character 0x010C (Warning Unknown Glyph)
+2021-12-12 15:24:10 - Language cs-CZ is not supported
+2021-12-12 15:24:10 - GetGlyph failed for character 0x0104 (Warning Unknown Glyph)
+2021-12-12 15:24:10 - Language pl-PL is not supported
+2021-12-12 15:24:10 - Language ru-RU is supported
+2021-12-12 15:24:10 - GetGlyph failed for character 0x3041 (Warning Unknown Glyph)
+2021-12-12 15:24:10 - Language ja-JP is not supported
+2021-12-12 15:24:10 - GetGlyph failed for character 0x4E0F (Warning Unknown Glyph)
+2021-12-12 15:24:10 - Language zh-CN is not supported
+2021-12-12 15:24:10 - GetGlyph failed for character 0xF944 (Warning Unknown Glyph)
+2021-12-12 15:24:10 - Language zh-HK is not supported
+2021-12-12 15:24:10 - Font does not support all languages. Installing unicode font...
+2021-12-12 15:24:10 - InitFont - Font header version: 1.1
+2021-12-12 15:24:10 - InitFont - Number of narrow glyphs: 7110
+2021-12-12 15:24:10 - InitFont - Number of wide glyphs: 49976
+2021-12-12 15:24:10 - Language en-US is supported
+2021-12-12 15:24:10 - Language fr-FR is supported
+2021-12-12 15:24:10 - Language it-IT is supported
+2021-12-12 15:24:10 - Language es-AR is supported
+2021-12-12 15:24:10 - Language pt-BR is supported
+2021-12-12 15:24:10 - Language ca-ES is supported
+2021-12-12 15:24:10 - Language de-DE is supported
+2021-12-12 15:24:10 - Language cs-CZ is supported
+2021-12-12 15:24:10 - Language pl-PL is supported
+2021-12-12 15:24:10 - Language ru-RU is supported
+2021-12-12 15:24:10 - Language ja-JP is supported
+2021-12-12 15:24:10 - Language zh-CN is supported
+2021-12-12 15:24:10 - Language zh-HK is supported
+2021-12-12 15:24:10 - iMS support is NOT available
+2021-12-12 15:24:10 - Initializing screen for graphics
+2021-12-12 15:24:10 - Number of graphics modes: 8
+2021-12-12 15:24:10 - Mode 0: 3440 x 1440 [Current]
+2021-12-12 15:24:10 - Mode 1: 640 x 480
+2021-12-12 15:24:10 - Mode 2: 800 x 600
+2021-12-12 15:24:10 - Mode 3: 1024 x 768
+2021-12-12 15:24:10 - Mode 4: 1280 x 1024
+2021-12-12 15:24:10 - Mode 5: 1400 x 1050
+2021-12-12 15:24:10 - Mode 6: 1600 x 1200
+2021-12-12 15:24:10 - Mode 7: 1280 x 960
+2021-12-12 15:24:10 - Getting CPUID
+2021-12-12 15:24:10 - Getting cache size
+2021-12-12 15:24:10 - get_cache_size - Vendor ID: GenuineIntel Brand ID: Intel(R) Core(TM) i9-10900K CPU @ 3.70GHz
+2021-12-12 15:24:10 - L1 data cache: 32, 2, 16 [0x3C004121]
+2021-12-12 15:24:10 - L1d t2 linesize 64 linepart 1 ways 8 sets 64, size 32KB
+2021-12-12 15:24:10 - L1i t2 linesize 64 linepart 1 ways 8 sets 64, size 32KB
+2021-12-12 15:24:10 - L2u t2 linesize 64 linepart 1 ways 4 sets 1024, size 256KB
+2021-12-12 15:24:10 - L3u t32 linesize 64 linepart 1 ways 16 sets 20480, size 20480KB
+2021-12-12 15:24:10 - L0 cache: 0 KB (1)
+2021-12-12 15:24:10 - L0u t1 linesize 1 linepart 1 ways 1 sets 1, size 0KB
+2021-12-12 15:24:10 - L1 instruction cache size: 8 x 32KB
+2021-12-12 15:24:10 - L1 data cache size: 8 x 32KB
+2021-12-12 15:24:10 - L2 cache size: 8 x 256KB
+2021-12-12 15:24:10 - L3 cache size: 20480KB
+2021-12-12 15:24:10 - Measuring CPU/cache/mem speed
+2021-12-12 15:24:10 - hpet_init - Found RSDP. Version: 2 
+2021-12-12 15:24:10 - hpet_init - Found XSDT. Entry Count: 33
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: FACP  Version: 6
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: MCFG  Version: 1
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: FIDT  Version: 1
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: SSDT  Version: 2
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: SSDT  Version: 2
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: SSDT  Version: 2
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: SSDT  Version: 2
+2021-12-12 15:24:10 - hpet_init - Found ACPI table: HPET  Version: 1
+2021-12-12 15:24:10 - hpet_init - HPET base address: 0xFED00000
+2021-12-12 15:24:10 - hpet_init - HPET gen cap: 0x27BC86B8086A701 (Period: 41666667fs)
+2021-12-12 15:24:10 - hpet_init - HPET gen cfg: 0x1
+2021-12-12 15:24:10 - hpet_init - main counter value (1): 1069857372
+2021-12-12 15:24:10 - hpet_init - main counter value (2): 1069915448
+2021-12-12 15:24:10 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:10 - cpuspeed_hpet - HPET counter start: 1070047356, HPET counter end: 1071247355
+2021-12-12 15:24:10 - cpuspeed_hpet - start TSC: 169968300620, end TSC: 170154770416 (difference: 186469796)
+2021-12-12 15:24:10 - cpu_cache_speed - (Attempt 1) clock cycle (ms): 3729395
+2021-12-12 15:24:10 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1071485214, HPET counter end: 1072685213
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 170192691130, end TSC: 170379121094 (difference: 186429964)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 2) clock cycle (ms): 3728599
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1072924399, HPET counter end: 1074124398
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 170417166846, end TSC: 170603652826 (difference: 186485980)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 3) clock cycle (ms): 3729719
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1074362001, HPET counter end: 1075562000
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 170641486028, end TSC: 170828076636 (difference: 186590608)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 4) clock cycle (ms): 3731812
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1075797469, HPET counter end: 1076997468
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 170865550274, end TSC: 171051886676 (difference: 186336402)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 5) clock cycle (ms): 3726728
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1077236077, HPET counter end: 1078436076
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 171089881940, end TSC: 171276252188 (difference: 186370248)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 6) clock cycle (ms): 3727404
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1078673979, HPET counter end: 1079873978
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 171314158134, end TSC: 171500619878 (difference: 186461744)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 7) clock cycle (ms): 3729234
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1080112552, HPET counter end: 1081312551
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 171538594258, end TSC: 171724870442 (difference: 186276184)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 8) clock cycle (ms): 3725523
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1081553056, HPET counter end: 1082753055
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 171763149480, end TSC: 171949591982 (difference: 186442502)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 9) clock cycle (ms): 3728850
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1082991161, HPET counter end: 1084191160
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 171987537260, end TSC: 172173863584 (difference: 186326324)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 10) clock cycle (ms): 3726526
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1084430997, HPET counter end: 1085630996
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 172212108872, end TSC: 172398437282 (difference: 186328410)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 11) clock cycle (ms): 3726568
+2021-12-12 15:24:11 - cpuspeed_hpet - rdtsc instruction supported: 1
+2021-12-12 15:24:11 - cpuspeed_hpet - HPET counter start: 1085873492, HPET counter end: 1087073491
+2021-12-12 15:24:11 - cpuspeed_hpet - start TSC: 172437049896, end TSC: 172623403302 (difference: 186353406)
+2021-12-12 15:24:11 - cpu_cache_speed - (Attempt 12) clock cycle (ms): 3727068
+2021-12-12 15:24:11 - cpu_cache_speed - Using average of last 12 samples (3728118)
+2021-12-12 15:24:11 - cpu_cache_speed - CPU speed: 3728.1MHz
+2021-12-12 15:24:11 - cpu_cache_speed - measuring L1 cache speed at 0x8E41A000 (32 KB)
+2021-12-12 15:24:11 - cpu_cache_speed - L1 cache speed: 300787 MB/s
+2021-12-12 15:24:11 - cpu_cache_speed - measuring L2 cache speed at 0x8E3E2000 (256 KB)
+2021-12-12 15:24:11 - cpu_cache_speed - L2 cache speed: 135722 MB/s
+2021-12-12 15:24:11 - cpu_cache_speed - measuring L3 cache speed at 0x876D4000 (20480 KB)
+2021-12-12 15:24:12 - cpu_cache_speed - L3 cache speed: 53369 MB/s
+2021-12-12 15:24:12 - get_mem_speed - measuring mem speed at 0x7A6CF000 (166400 KB)
+2021-12-12 15:24:12 - get_mem_speed - mem speed: 23707 MB/s
+2021-12-12 15:24:12 - cpu_cache_speed - Memory latency: 17.711 ns
+2021-12-12 15:24:12 - Retrieving CPU MSR data
+2021-12-12 15:24:12 - GetIntelArchitectureSpecificMSRInfo - CPU Intel(R) Core(TM) i9-10900K CPU @ 3.70GHz: 6.165
+2021-12-12 15:24:12 - GetIntelArchitectureSpecificMSRInfo - Nehalem et al detected
+2021-12-12 15:24:12 - GetCometLakeFamilyMSRInfo_Static - MSR[0xCE] = 0808083AF1012500
+2021-12-12 15:24:12 - GetCometLakeFamilyMSRInfo_Static - MSR[0x1A2] = 0000000080641200
+2021-12-12 15:24:12 - GetCometLakeFamilyMSRInfo_Static - MSR[0x1AD] = 0000000032333436
+2021-12-12 15:24:12 - IsIntelTurboSupported - CPUID[0x6][EAX] = 000027F7
+2021-12-12 15:24:12 - DisableTurboMode - MSR[1A0] = 0000000000850089
+2021-12-12 15:24:12 - DisableTurboMode - New MSR[1A0] = 0000004000850089
+2021-12-12 15:24:12 - GetIntelArchitectureSpecificMSRInfo - Turbo disabled
+2021-12-12 15:24:12 - IsIntel_PerfMon_Supported - CPUID[0xA][EDX] = 00000603
+2021-12-12 15:24:12 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2021-12-12 15:24:12 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2021-12-12 15:24:12 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2021-12-12 15:24:12 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000003600
+2021-12-12 15:24:12 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 00002B5B00002500
+2021-12-12 15:24:12 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 3728118000
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 554353466
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 3732152, FreqRef in KHz = 3728117, Ratio = 100
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000003600
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 00002B5B00002500
+2021-12-12 15:24:13 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 3728118000
+2021-12-12 15:24:14 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 554362847
+2021-12-12 15:24:14 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 3732152, FreqRef in KHz = 3728117, Ratio = 100
+2021-12-12 15:24:14 - GetIntelArchitectureSpecificMSRInfo - MaxRatio = 100
+2021-12-12 15:24:14 - GetIntelArchitectureSpecificMSRInfo - Mult = 3700
+2021-12-12 15:24:14 - GetIntelArchitectureSpecificMSRInfo - raw_freq_cpu = 3728083
+2021-12-12 15:24:14 - EnableTurboMode - MSR[1A0] = 0000004000850089
+2021-12-12 15:24:14 - EnableTurboMode - New MSR[1A0] = 0000000000850089
+2021-12-12 15:24:14 - EnableTurboMode - MSR[0x198] = 00002B5A00003200 (Current multiplier: 50)
+2021-12-12 15:24:14 - EnableTurboMode - MSR[0x199] = 0000000000003600 (Target multiplier: 54, Max1CTurbo: 54)
+2021-12-12 15:24:14 - GetIntelArchitectureSpecificMSRInfo - TargetRatio = 142
+2021-12-12 15:24:14 - IsIntel_PerfMon_Supported - CPUID[0xA][EDX] = 00000603
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000003600
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 00002B5A00003200
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 3728118000
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 409224698
+2021-12-12 15:24:15 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 5043449, FreqRef in KHz = 3728117, Ratio = 135
+2021-12-12 15:24:16 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 409223835
+2021-12-12 15:24:16 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 5043449, FreqRef in KHz = 3728117, Ratio = 135
+2021-12-12 15:24:16 - GetIntelArchitectureSpecificMSRInfo - MaxTurboRatio = 135
+2021-12-12 15:24:16 - GetIntelArchitectureSpecificMSRInfo - TurboMult = 4995
+2021-12-12 15:24:16 - GetIntelArchitectureSpecificMSRInfo - new TurboMult = 5000
+2021-12-12 15:24:16 - GetIntelArchitectureSpecificMSRInfo - CPUSpeedTurbo = 5037950
+2021-12-12 15:24:16 - GetIntelArchitectureSpecificMSRInfo - CPUSpeedTurboTheoreticalMax = 5440986
+2021-12-12 15:24:16 - GetIntelArchitectureSpecificMSRInfo - Freq: 3728083, 3700, 100759, Turbo: 5037950, 5000, 0 (5440986)
+2021-12-12 15:24:16 - Getting memory size
+2021-12-12 15:24:16 - 0x000000000000 - 0x00000009DFFF (632KB) {Free Memory}
+2021-12-12 15:24:16 - 0x00000009E000 - 0x00000009EFFF (4KB) {Reserved Memory}
+2021-12-12 15:24:16 - 0x00000009F000 - 0x00000009FFFF (4KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000000100000 - 0x00000FFFFFFF (255MB) {Free Memory}
+2021-12-12 15:24:17 - 0x000010000000 - 0x00001000AFFF (44KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x00001000B000 - 0x00008494EFFF (1865MB) {Free Memory}
+2021-12-12 15:24:17 - 0x00008494F000 - 0x00008498EFFF (256KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x00008498F000 - 0x000088AD3FFF (65MB) {Free Memory}
+2021-12-12 15:24:17 - 0x000088AD4000 - 0x00008D66BFFF (75MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x00008D66C000 - 0x00008D66CFFF (4KB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x00008D66D000 - 0x00008D8BBFFF (2MB) {Free Memory}
+2021-12-12 15:24:17 - 0x00008D8BC000 - 0x00008DAFBFFF (2MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x00008DAFC000 - 0x00008DAFCFFF (4KB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x00008DAFD000 - 0x00008E261FFF (7MB) {Free Memory}
+2021-12-12 15:24:17 - 0x00008E262000 - 0x00008E3A2FFF (1284KB) {Loader Code}
+2021-12-12 15:24:17 - 0x00008E3A3000 - 0x00008E41FFFF (500KB) {Free Memory}
+2021-12-12 15:24:17 - 0x00008E420000 - 0x000090B98FFF (39MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000090B99000 - 0x000090C26FFF (568KB) {Loader Code}
+2021-12-12 15:24:17 - 0x000090C27000 - 0x000090DCFFFF (1700KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000090DD0000 - 0x000090DD0FFF (4KB) {Loader Data}
+2021-12-12 15:24:17 - 0x000090DD1000 - 0x000090E93FFF (780KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000090E94000 - 0x000090EA1FFF (56KB) {Loader Data}
+2021-12-12 15:24:17 - 0x000090EA2000 - 0x000091D38FFF (14MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000091D39000 - 0x000091D39FFF (4KB) {Loader Data}
+2021-12-12 15:24:17 - 0x000091D3A000 - 0x000093754FFF (26MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000093755000 - 0x00009376FFFF (108KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x000093770000 - 0x00009379AFFF (172KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x00009379B000 - 0x0000937A4FFF (40KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937A5000 - 0x0000937BEFFF (104KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x0000937BF000 - 0x0000937D3FFF (84KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937D4000 - 0x0000937D8FFF (20KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x0000937D9000 - 0x0000937DAFFF (8KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937DB000 - 0x0000937DFFFF (20KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x0000937E0000 - 0x0000937E3FFF (16KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937E4000 - 0x0000937EBFFF (32KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x0000937EC000 - 0x0000937EDFFF (8KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937EE000 - 0x0000937F3FFF (24KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x0000937F4000 - 0x0000937F4FFF (4KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937F5000 - 0x0000937F9FFF (20KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x0000937FA000 - 0x0000937FEFFF (20KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000937FF000 - 0x000093808FFF (40KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000093809000 - 0x00009383AFFF (200KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x00009383B000 - 0x000093870FFF (216KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000093871000 - 0x0000938A3FFF (204KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000938A4000 - 0x000093946FFF (652KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000093947000 - 0x00009394EFFF (32KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x00009394F000 - 0x000093966FFF (96KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000093967000 - 0x000093970FFF (40KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x000093971000 - 0x000094922FFF (15MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000094923000 - 0x00009493EFFF (112KB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x00009493F000 - 0x000096F4DFFF (38MB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000096F4E000 - 0x000097282FFF (3MB) {Free Memory}
+2021-12-12 15:24:17 - 0x000097283000 - 0x0000984FEFFF (18MB) {Boot Services Code}
+2021-12-12 15:24:17 - 0x0000984FF000 - 0x000098AFEFFF (6MB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x000098AFF000 - 0x000098BFEFFF (1024KB) {ACPI Tables}
+2021-12-12 15:24:17 - 0x000098BFF000 - 0x000098DFEFFF (2MB) {ACPI Non-volatile}
+2021-12-12 15:24:17 - 0x000098DFF000 - 0x0000999FEFFF (12MB) {Runtime Services Data}
+2021-12-12 15:24:17 - 0x0000999FF000 - 0x000099AFEFFF (1024KB) {Runtime Services Code}
+2021-12-12 15:24:17 - 0x000099AFF000 - 0x000099AFFFFF (4KB) {Boot Services Data}
+2021-12-12 15:24:17 - 0x000100000000 - 0x00085C7FFFFF (30152MB) {Free Memory}
+2021-12-12 15:24:17 - 0x0000000A0000 - 0x0000000FFFFF (384KB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x000099B00000 - 0x000099EFFFFF (4MB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x000099F00000 - 0x000099FFFFFF (1024KB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x00009A000000 - 0x00009AFFFFFF (16MB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x00009B000000 - 0x00009F7FFFFF (72MB) {Reserved Memory}
+2021-12-12 15:24:17 - 0x0000E0000000 - 0x0000EFFFFFFF (256MB) {OS Memory-mapped IO}
+2021-12-12 15:24:17 - 0x0000FE000000 - 0x0000FE010FFF (68KB) {OS Memory-mapped IO}
+2021-12-12 15:24:17 - 0x0000FEC00000 - 0x0000FEC00FFF (4KB) {OS Memory-mapped IO}
+2021-12-12 15:24:17 - 0x0000FED00000 - 0x0000FED00FFF (4KB) {OS Memory-mapped IO}
+2021-12-12 15:24:17 - 0x0000FEE00000 - 0x0000FEE00FFF (4KB) {OS Memory-mapped IO}
+2021-12-12 15:24:17 - 0x0000FF000000 - 0x0000FFFFFFFF (16MB) {OS Memory-mapped IO}
+2021-12-12 15:24:17 - 
+2021-12-12 15:24:17 - Available Memory: 0x7E5F8D000 (31GB)
+2021-12-12 15:24:17 - Reserved Memory: 0x27087000 (624MB)
+2021-12-12 15:24:17 - mem_size - Number of entries: 71
+2021-12-12 15:24:17 - mem_size - Max address: 0x85C800000
+2021-12-12 15:24:17 - mem_size - Total memory size (34186317824 bytes)
+2021-12-12 15:24:17 - Getting memory SPD info
+2021-12-12 15:24:17 - Attempting to enable any disabled SMBus controllers...
+2021-12-12 15:24:17 - Attempting to enable SMBUS:
+2021-12-12 15:24:17 - Searching PCI for SMBus Controller
+2021-12-12 15:24:17 - Found device with SMBUS class code.
+2021-12-12 15:24:17 - {00:1F:04} SMBus Configuration Registers:
+2021-12-12 15:24:17 - 00: 43A38086 02800003 0C050011 00000000
+2021-12-12 15:24:17 - 10: 12118004 00000060 00000000 00000000
+2021-12-12 15:24:17 - 20: 0000EFA1 00000000 00000000 7D091462
+2021-12-12 15:24:17 - 30: 00000000 00000000 00000000 000001FF
+2021-12-12 15:24:17 - 40: 00000001 00000000 00000000 00000000
+2021-12-12 15:24:17 - 50: 00000401 00000101 00000000 00000000
+2021-12-12 15:24:17 - 60: 00050504 0A0A0000 00000000 00000000
+2021-12-12 15:24:17 - 70: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:17 - 80: 00000024 00000000 00000000 00000000
+2021-12-12 15:24:17 - 90: 01210000 00000C00 0120001F 00000E00
+2021-12-12 15:24:17 - A0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:17 - B0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:17 - C0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:17 - D0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:17 - E0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:17 - F0: 00000000 00000000 01110FB5 00000000
+2021-12-12 15:24:17 -  Found SMBus device:  VID:8086 DID:43A3 Bus:00 Dev:1F Fun:04 IO Add:EFA0 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:17 - Finished searching PCI for SMBus Controller
+2021-12-12 15:24:17 - [Intel Unknown Bus:00 Dev:1F Fun:04 Add:EFA0] Looking for SPD
+2021-12-12 15:24:17 - Expanding SPD info array (0 => 16)
+2021-12-12 15:24:17 - MemoryInfo(0x8E412018, 63424 bytes) RawSPD(0x8E40F018, 8192 bytes)
+2021-12-12 15:24:17 - Raw SPD bytes for DIMM#0 (Channel -1, Slot -1):
+2021-12-12 15:24:17 - 23 11 0C 02 86 29 00 08 00 60 00 03 01 03 00 00 
+2021-12-12 15:24:17 - 00 00 07 0D F8 0F 00 00 6B 6B 6B 11 00 6B 30 11 
+2021-12-12 15:24:17 - F0 0A 20 08 00 A8 1B 28 28 00 78 00 14 3C 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 9C B5 C9 C9 C9 C9 E7 D6 2D 28 
+2021-12-12 15:24:17 - 11 11 60 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 69 41 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 04 EF 00 21 10 01 A4 06 89 54 45 41 4D 47 52 4F 
+2021-12-12 15:24:17 - 55 50 2D 55 44 34 2D 33 32 30 30 20 20 00 80 2C 
+2021-12-12 15:24:17 - FF 1A 21 03 11 00 80 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 0C 4A 01 20 00 00 00 00 00 A3 00 00 05 00 02 00 
+2021-12-12 15:24:17 - 00 50 64 64 10 C8 2C 30 11 F0 0A 20 08 00 A8 14 
+2021-12-12 15:24:17 - 28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 31 31 30 31 11 00 00 
+2021-12-12 15:24:17 - 4D 42 35 35 30 4D 00 00 00 00 00 00 01 12 1A 00 
+2021-12-12 15:24:17 - Module Manufacturer's Specific Data raw bytes:
+2021-12-12 15:24:17 - 1A 21 03 11 00 80 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - DIMM#0 (Channel -1, Slot -1) serial number: 01A40689
+2021-12-12 15:24:17 - Raw SPD bytes for DIMM#1 (Channel -1, Slot -1):
+2021-12-12 15:24:17 - 23 11 0C 02 86 29 00 08 00 60 00 03 01 03 00 00 
+2021-12-12 15:24:17 - 00 00 07 0D F8 0F 00 00 6B 6B 6B 11 00 6B 30 11 
+2021-12-12 15:24:17 - F0 0A 20 08 00 A8 1B 28 28 00 78 00 14 3C 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 9C B5 C9 C9 C9 C9 E7 D6 2D 28 
+2021-12-12 15:24:17 - 11 11 60 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 69 41 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 04 EF 00 21 10 01 A4 06 8A 54 45 41 4D 47 52 4F 
+2021-12-12 15:24:17 - 55 50 2D 55 44 34 2D 33 32 30 30 20 20 00 80 2C 
+2021-12-12 15:24:17 - FF 1A 21 03 11 00 80 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 0C 4A 01 20 00 00 00 00 00 A3 00 00 05 00 02 00 
+2021-12-12 15:24:17 - 00 50 64 64 10 C8 2C 30 11 F0 0A 20 08 00 A8 14 
+2021-12-12 15:24:17 - 28 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 31 31 30 31 11 00 00 
+2021-12-12 15:24:17 - 4D 42 35 35 30 4D 00 00 00 00 00 00 01 12 1A 00 
+2021-12-12 15:24:17 - Module Manufacturer's Specific Data raw bytes:
+2021-12-12 15:24:17 - 1A 21 03 11 00 80 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+2021-12-12 15:24:17 - DIMM#1 (Channel -1, Slot -1) serial number: 01A4068A
+2021-12-12 15:24:17 - Enumerating PCI bus...
+2021-12-12 15:24:17 - Scanning PCI for devices:
+2021-12-12 15:24:17 -  VID:8086 DID:9B33 Bus:00 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2021-12-12 15:24:17 -  VID:8086 DID:1901 Bus:00 Dev:01 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:9BC5 Bus:00 Dev:02 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:05 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:1911 Bus:00 Dev:08 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43ED Bus:00 Dev:14 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43EF Bus:00 Dev:14 Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43E0 Bus:00 Dev:16 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43D2 Bus:00 Dev:17 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43C0 Bus:00 Dev:1B Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43B8 Bus:00 Dev:1C Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43BC Bus:00 Dev:1C Fun:04 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43BE Bus:00 Dev:1C Fun:06 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43B0 Bus:00 Dev:1D Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:4385 Bus:00 Dev:1F Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:F0C8 Bus:00 Dev:1F Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 - Found device with SMBUS class code.
+2021-12-12 15:24:18 - {00:1F:04} SMBus Configuration Registers:
+2021-12-12 15:24:18 - 00: 43A38086 02800003 0C050011 00000000
+2021-12-12 15:24:18 - 10: 12118004 00000060 00000000 00000000
+2021-12-12 15:24:18 - 20: 0000EFA1 00000000 00000000 7D091462
+2021-12-12 15:24:18 - 30: 00000000 00000000 00000000 000001FF
+2021-12-12 15:24:18 - 40: 00000001 00000000 00000000 00000000
+2021-12-12 15:24:18 - 50: 00000401 00000101 00000000 00000000
+2021-12-12 15:24:18 - 60: 00050504 0A0A0000 00000000 00000000
+2021-12-12 15:24:18 - 70: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - 80: 00000024 00000000 00000000 00000000
+2021-12-12 15:24:18 - 90: 01210000 00000C00 0120001F 00000E00
+2021-12-12 15:24:18 - A0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - B0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - C0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - D0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - E0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - F0: 00000000 00000000 01110FB5 00000000
+2021-12-12 15:24:18 -  VID:8086 DID:43A3 Bus:00 Dev:1F Fun:04 IO Add:EFA0 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:43A4 Bus:00 Dev:1F Fun:05 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:11 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:1002 DID:67DF Bus:01 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:EF [ATI Unknown]
+2021-12-12 15:24:18 -  VID:1002 DID:AAF0 Bus:01 Dev:00 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [ATI Unknown]
+2021-12-12 15:24:18 -  VID:144D DID:A804 Bus:02 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2021-12-12 15:24:18 -  VID:8086 DID:15F3 Bus:04 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:03 [Intel Unknown]
+2021-12-12 15:24:18 -  VID:14E4 DID:43A0 Bus:05 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:03 [Unknown Unknown]
+2021-12-12 15:24:18 -  VID:15B7 DID:5006 Bus:06 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2021-12-12 15:24:18 - Finished searching PCI for SMBus Controller
+2021-12-12 15:24:18 - Getting SMBIOS Memory Device info...
+2021-12-12 15:24:18 - Found 4 Memory Devices
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct 0
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=92, iTotalLen=87)
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: String area len=43
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v2.3+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v3.2+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct end
+2021-12-12 15:24:18 - [Slot 0] TotalWidth: 0, DataWidth: 0, Size: 0, FormFactor: 2, DeviceSet: 0, MemoryType: 2, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2021-12-12 15:24:18 - [Slot 0] DeviceLocator: Controller0-ChannelA-DIMM0, BankLocator: BANK 0, Manufacturer: NO DIMM, S/N: NO DIMM, AssetTag: NO DIMM, PartNumber: NO DIMM
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct 1
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=92, iTotalLen=AF)
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: String area len=83
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v2.3+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v3.2+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct end
+2021-12-12 15:24:18 - [Slot 1] TotalWidth: 64, DataWidth: 64, Size: 16384, FormFactor: 9, DeviceSet: 0, MemoryType: 26, Speed: 3200, Attributes: 1, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 3200, MinimumVoltage: 1250, MaximumVoltage: 1250, ConfiguredVoltage: 1250
+2021-12-12 15:24:18 - [Slot 1] DeviceLocator: Controller0-ChannelA, BankLocator: BANK 0, Manufacturer: Team Group Inc, S/N: 01A40689, AssetTag: 9876543210, PartNumber: TEAMGROUP-UD4-3200
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct 2
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=92, iTotalLen=87)
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: String area len=43
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v2.3+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v3.2+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct end
+2021-12-12 15:24:18 - [Slot 2] TotalWidth: 0, DataWidth: 0, Size: 0, FormFactor: 2, DeviceSet: 0, MemoryType: 2, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2021-12-12 15:24:18 - [Slot 2] DeviceLocator: Controller0-ChannelB-DIMM0, BankLocator: BANK 1, Manufacturer: NO DIMM, S/N: NO DIMM, AssetTag: NO DIMM, PartNumber: NO DIMM
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct 3
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=92, iTotalLen=AF)
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: String area len=83
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v2.3+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct: parsing v3.2+ strings
+2021-12-12 15:24:18 - DEBUG: Get SMB mem device Struct end
+2021-12-12 15:24:18 - [Slot 3] TotalWidth: 64, DataWidth: 64, Size: 16384, FormFactor: 9, DeviceSet: 0, MemoryType: 26, Speed: 3200, Attributes: 1, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 3200, MinimumVoltage: 1250, MaximumVoltage: 1250, ConfiguredVoltage: 1250
+2021-12-12 15:24:18 - [Slot 3] DeviceLocator: Controller0-ChannelB, BankLocator: BANK 1, Manufacturer: Team Group Inc, S/N: 01A4068A, AssetTag: 9876543210, PartNumber: TEAMGROUP-UD4-3200
+2021-12-12 15:24:18 - Number of non-empty SMBIOS memory devices found: 2
+2021-12-12 15:24:18 - Attempting to enable any disabled TSOD controllers...
+2021-12-12 15:24:18 - Attempting to enable SMBUS:
+2021-12-12 15:24:18 - Searching PCI for TSOD Controller
+2021-12-12 15:24:18 - Found device with SMBUS class code.
+2021-12-12 15:24:18 - {00:1F:04} SMBus Configuration Registers:
+2021-12-12 15:24:18 - 00: 43A38086 02800003 0C050011 00000000
+2021-12-12 15:24:18 - 10: 12118004 00000060 00000000 00000000
+2021-12-12 15:24:18 - 20: 0000EFA1 00000000 00000000 7D091462
+2021-12-12 15:24:18 - 30: 00000000 00000000 00000000 000001FF
+2021-12-12 15:24:18 - 40: 00000001 00000000 00000000 00000000
+2021-12-12 15:24:18 - 50: 00000401 00000101 00000000 00000000
+2021-12-12 15:24:18 - 60: 00050504 0A0A0000 00000000 00000000
+2021-12-12 15:24:18 - 70: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - 80: 00000024 00000000 00000000 00000000
+2021-12-12 15:24:18 - 90: 01210000 00000C00 0120001F 00000E00
+2021-12-12 15:24:18 - A0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - B0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - C0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - D0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - E0: 00000000 00000000 00000000 00000000
+2021-12-12 15:24:18 - F0: 00000000 00000000 01110FB5 00000000
+2021-12-12 15:24:18 - Finished searching PCI for SMBus Controller
+2021-12-12 15:24:18 - Could not find TSOD controller.
+2021-12-12 15:24:18 - Getting memory controller info
+2021-12-12 15:24:18 - find_mem_controller - found Intel Comet Lake (8086:9B33) at 0-0-0
+2021-12-12 15:24:18 - Intel Comet Lake chipset init
+2021-12-12 15:24:18 - MCHBAR_LO=FED10001
+2021-12-12 15:24:18 - MCHBAR_HI=00000000
+2021-12-12 15:24:18 - MCHBAR=FED10000
+2021-12-12 15:24:18 - CAPID0_A=6201205D (ECC capable: no)
+2021-12-12 15:24:18 - find_mem_controller - Intel Comet Lake (8086:9B33) at 0-0-0
+2021-12-12 15:24:18 - find_mem_controller - Intel Comet Lake ECC mode: detect: no, correct: no, scrub: no, chipkill: no
+2021-12-12 15:24:18 - ECC polling disabled
+2021-12-12 15:24:18 - Parsing command line: ""
+2021-12-12 15:24:18 - Applying configurations
+2021-12-12 15:24:18 - [CONFIG] This platform has 1 logical processors of which 1 are enabled.
+2021-12-12 15:24:18 - Applying configurations complete
+2021-12-12 15:24:18 - Console size = 428 x 88
+2021-12-12 15:24:18 - Checking for graphics mode support
+2021-12-12 15:24:18 - Graphics mode available
+2021-12-12 15:24:18 - Enabling graphics mode
+2021-12-12 15:24:18 - Get screen size
+2021-12-12 15:24:18 - Current screen size: 3440 x 1440
+2021-12-12 15:24:18 - Screen resolution is too high (3440 x 1440). Attempting to set new screen size.
+2021-12-12 15:24:18 - Found eligible graphics mode: 3 [1024 x 768]
+2021-12-12 15:24:18 - Found eligible graphics mode: 4 [1280 x 1024]
+2021-12-12 15:24:18 - Found eligible graphics mode: 5 [1400 x 1050]
+2021-12-12 15:24:18 - Found eligible graphics mode: 6 [1600 x 1200]
+2021-12-12 15:24:18 - Found eligible graphics mode: 7 [1280 x 960]
+2021-12-12 15:24:18 - Setting graphics mode to: 3 [1024 x 768]
+2021-12-12 15:24:18 - Successfully set graphics mode to: 3
+2021-12-12 15:24:18 - New screen size = 1024 x 768
+2021-12-12 15:24:18 - Screen size = 1024 x 768
+2021-12-12 15:24:18 - Char width=8 height=19
+2021-12-12 15:24:18 - Loading images
+2021-12-12 15:24:36 - Enabling graphics mode
+2021-12-12 15:24:36 - Get screen size
+2021-12-12 15:24:36 - Current screen size: 1024 x 768
+2021-12-12 15:24:36 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88310800 (Vendor ID: GenuineIntel 6 A5 5)
+2021-12-12 15:24:36 - MapTempIntel - MSR(0x1A2) =         80641200
+2021-12-12 15:25:29 - Comparing SMBIOS S/N (01A40689) with SPD S/N (01A40689)
+2021-12-12 15:25:29 - SMBIOS S/N = 01A40689
+2021-12-12 15:25:29 - Found match
+2021-12-12 15:25:29 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A40689)
+2021-12-12 15:25:29 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:29 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A4068A)
+2021-12-12 15:25:29 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:29 - Found match
+2021-12-12 15:25:46 - Enabling graphics mode
+2021-12-12 15:25:46 - Get screen size
+2021-12-12 15:25:46 - Current screen size: 1024 x 768
+2021-12-12 15:25:46 - Comparing SMBIOS S/N (01A40689) with SPD S/N (01A40689)
+2021-12-12 15:25:46 - SMBIOS S/N = 01A40689
+2021-12-12 15:25:46 - Found match
+2021-12-12 15:25:46 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A40689)
+2021-12-12 15:25:46 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:46 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A4068A)
+2021-12-12 15:25:46 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:46 - Found match
+2021-12-12 15:25:52 - Comparing SMBIOS S/N (01A40689) with SPD S/N (01A40689)
+2021-12-12 15:25:52 - SMBIOS S/N = 01A40689
+2021-12-12 15:25:52 - Found match
+2021-12-12 15:25:52 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A40689)
+2021-12-12 15:25:52 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:52 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A4068A)
+2021-12-12 15:25:52 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:52 - Found match
+2021-12-12 15:25:53 - Comparing SMBIOS S/N (01A40689) with SPD S/N (01A40689)
+2021-12-12 15:25:53 - SMBIOS S/N = 01A40689
+2021-12-12 15:25:53 - Found match
+2021-12-12 15:25:53 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A40689)
+2021-12-12 15:25:53 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:53 - Comparing SMBIOS S/N (01A4068A) with SPD S/N (01A4068A)
+2021-12-12 15:25:53 - SMBIOS S/N = 01A4068A
+2021-12-12 15:25:53 - Found match
+2021-12-12 15:25:56 - GetIA32ArchitecturalTemp - MSR(0x19C) =         882E0800 (Vendor ID: GenuineIntel 6 A5 5)
+2021-12-12 15:25:56 - MapTempIntel - MSR(0x1A2) =         80641200
+2021-12-12 15:26:46 - *** TEST SESSION - 2021-12-12 15:26:46 ***
+2021-12-12 15:26:46 - CPU selection mode = 0
+2021-12-12 15:26:46 - ReadMemoryRanges - Available Pages = 8281848
+2021-12-12 15:26:46 - Locking all memory ranges first...
+2021-12-12 15:26:46 - Skipping memory range 0x0 - 0x9E000 (632KB). Range too small.
+2021-12-12 15:26:46 - Memory range locked: 0x100000 - 0x10000000 (32866272KB of available memory left)
+2021-12-12 15:26:46 - Memory range locked: 0x1000B000 - 0x8494F000 (30956240KB of available memory left)
+2021-12-12 15:26:46 - Memory range locked: 0x8498F000 - 0x88AD4000 (30889404KB of available memory left)
+2021-12-12 15:26:46 - Skipping memory range 0x8D66D000 - 0x8D8BC000 (2364KB). Range too small.
+2021-12-12 15:26:46 - Skipping memory range 0x8DAFD000 - 0x8E224000 (7324KB). Range too small.
+2021-12-12 15:26:46 - Skipping memory range 0x8E235000 - 0x8E24C000 (92KB). Range too small.
+2021-12-12 15:26:46 - Skipping memory range 0x8E3A3000 - 0x8E3AE000 (44KB). Range too small.
+2021-12-12 15:26:46 - Skipping memory range 0x8E3BA000 - 0x8E3BE000 (16KB). Range too small.
+2021-12-12 15:26:46 - Skipping memory range 0x96F4E000 - 0x97283000 (3284KB). Range too small.
+2021-12-12 15:26:46 - Remaining memory is less than 16MB. Reducing memory range from 0x100000000 - 0x85C800000 (30875648KB) => 0x100000000 - 0x85C56F000 (30873020KB) 
+2021-12-12 15:26:46 - Memory range locked: 0x100000000 - 0x85C56F000 (16384KB of available memory left)
+2021-12-12 15:26:46 - All memory ranges successfully locked
+2021-12-12 15:26:46 - Starting pass #1 (of 4)
+2021-12-12 15:26:46 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88340800 (Vendor ID: GenuineIntel 6 A5 5)
+2021-12-12 15:26:46 - MapTempIntel - MSR(0x1A2) =         80641200
+2021-12-12 15:26:46 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2021-12-12 15:26:46 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2021-12-12 15:26:46 - MtSupportRunAllTests - Start time: 125 ms
+2021-12-12 15:26:46 - MtSupportRunAllTests - Enabling memory cache for test
+2021-12-12 15:26:46 - MtSupportRunAllTests - Enabling memory cache complete
+2021-12-12 15:26:46 - Start memory range test (0x0 - 0x85C800000)
+2021-12-12 15:26:47 - MtSupportRunAllTests - Test execution time: 1.288 (Test 0 cumulative error count: 0)
+2021-12-12 15:26:47 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2021-12-12 15:26:47 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2021-12-12 15:26:47 - MtSupportRunAllTests - Start time: 1444 ms
+2021-12-12 15:26:47 - MtSupportRunAllTests - Enabling memory cache for test
+2021-12-12 15:26:47 - MtSupportRunAllTests - Enabling memory cache complete
+2021-12-12 15:26:47 - Start memory range test (0x0 - 0x85C800000)
+2021-12-12 15:26:53 - MtSupportRunAllTests - Test execution time: 5.767 (Test 1 cumulative error count: 0)
+2021-12-12 15:26:53 - Running test #2 (Test 2 [Address test, own address])
+2021-12-12 15:26:53 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2021-12-12 15:26:53 - MtSupportRunAllTests - Start time: 7241 ms
+2021-12-12 15:26:53 - MtSupportRunAllTests - Enabling memory cache for test
+2021-12-12 15:26:53 - MtSupportRunAllTests - Enabling memory cache complete
+2021-12-12 15:26:53 - Start memory range test (0x0 - 0x85C800000)
+2021-12-12 15:26:59 - MtSupportRunAllTests - Test execution time: 5.768 (Test 2 cumulative error count: 0)
+2021-12-12 15:26:59 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2021-12-12 15:26:59 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2021-12-12 15:26:59 - MtSupportRunAllTests - Start time: 13044 ms
+2021-12-12 15:26:59 - MtSupportRunAllTests - Enabling memory cache for test
+2021-12-12 15:26:59 - MtSupportRunAllTests - Enabling memory cache complete
+2021-12-12 15:26:59 - Start memory range test (0x0 - 0x85C800000)
+2021-12-12 15:27:41 - MtSupportRunAllTests - Test execution time: 41.788 (Test 3 cumulative error count: 0)
+2021-12-12 15:27:41 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2021-12-12 15:27:41 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2021-12-12 15:27:41 - MtSupportRunAllTests - Start time: 54862 ms
+2021-12-12 15:27:41 - MtSupportRunAllTests - Enabling memory cache for test
+2021-12-12 15:27:41 - MtSupportRunAllTests - Enabling memory cache complete
+2021-12-12 15:27:41 - Start memory range test (0x0 - 0x85C800000)
+2021-12-12 15:27:46 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88270800 (Vendor ID: GenuineIntel 6 A5 5)
+2021-12-12 15:27:46 - MapTempIntel - MSR(0x1A2) =         80641200
+2021-12-12 15:28:48 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88330800 (Vendor ID: GenuineIntel 6 A5 5)
+2021-12-12 15:28:48 - MapTempIntel - MSR(0x1A2) =         80641200
+2021-12-12 15:28:48 - MtSupportRunAllTests - Test execution time: 66.112 (Test 4 cumulative error count: 0)
+2021-12-12 15:28:48 - Test restarting...
+2021-12-12 15:28:48 - Cleanup - Unlocking all memory ranges...
+2021-12-12 15:28:48 - All memory ranges successfully unlocked
+2021-12-12 15:28:48 - Enabling graphics mode
+2021-12-12 15:28:48 - Get screen size
+2021-12-12 15:28:48 - Current screen size: 1024 x 768
+2021-12-12 15:28:48 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88310800 (Vendor ID: GenuineIntel 6 A5 5)
+2021-12-12 15:28:48 - MapTempIntel - MSR(0x1A2) =         80641200
