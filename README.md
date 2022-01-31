@@ -61,13 +61,13 @@ Advanced → Power & Performance → CPU-Power Management Control → CPU Lock C
 save and exit.
 
 
-Pictures;
+## <p align="center"> Pictures</p>
 
-<img src="/Pictures/SystemPrefences.png" alt="My cool HackBook"/>
-<img src="/Pictures/Graphic.png" alt="My cool HackBook"/>
-<img src="/Pictures/Audio.png" alt="My cool HackBook"/>
-<img src="/Pictures/Bluetooth.png" alt="My cool HackBook"/>
-<img src="/Pictures/USB.png" alt="My cool HackBook"/>
-<img src="/Pictures/Batterie.png" alt="My cool HackBook"/>
-<img src="/Pictures/TouchPad.png" alt="My cool HackBook"/>
+<p align="center"><img src="/Pictures/SystemPrefences.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/Graphic.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/Audio.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/Bluetooth.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/USB.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/Batterie.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/TouchPad.png" alt="My cool HackBook"/></p>
 
