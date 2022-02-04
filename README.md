@@ -23,7 +23,7 @@ Storage  | 512GB SSD M.2 2280 PCIe 3.0 x4 NVMe
 Storage  | 256Gb SSD Sata3 (second added by me)
 Graphics  | Integrated Intel Iris Plus Graphics G7
 Monitor  | 15.6" FHD (1920x1080) IPS 250 nits Anti-glare
-Sound Card  | Smart Sound Technology Audio (layout-ID 11 (0B000000))
+Sound Card  | Smart Sound Technology Audio (ALC 257 layout-ID 11 (0B000000))
 Card reader  | Working
 Network Card  | BCM94360NG
 TouchPad  | Fully Fuctional
