@@ -24,7 +24,9 @@ ChromeOS  | ChromeOS "Volteer"  |   |
 SecureBoot is disabled but can be enabled and rolled out for OpenCore drivers if needed.
 
 
-
+<br>
+<br>
+<br>
 
 The specs of the machine are:
 
@@ -44,7 +46,10 @@ TouchPad  | Fully Fuctional
 There are still a few small blemishes that I haven't been able to solve yet.
 see Issues.
 
-
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -72,6 +77,9 @@ Then go to;
 Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
 
 save and exit.
+<br>
+<br>
+<br>
 
 
 ## <p align="center"> Pictures</p>
