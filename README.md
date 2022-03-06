@@ -92,10 +92,10 @@ save and exit.
   <p align="center"><img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"></p>
 
 
-<p align="center"><img src="/Pictures/Graphic.png" width="250" title="Graphic"></p>
-<p align="center"><img src="/Pictures/Audio.png" width="250" title="Audio"></p>
-<p align="center"><img src="/Pictures/Bluetooth.png" width="250" title="Bluetooth"></p>
-<p align="center"><img src="/Pictures/USB.png" width="250" title="USB"></p>
-<p align="center"><img src="/Pictures/Batterie.png" width="250" title="Batterie"></p>
-<p align="center"><img src="/Pictures/TouchPad.png" width="250" title="TouchPad"></p>
+<p align="center"><img src="/Pictures/Graphic.png" width="700" title="Graphic"></p>
+<p align="center"><img src="/Pictures/Audio.png" width="700" title="Audio"></p>
+<p align="center"><img src="/Pictures/Bluetooth.png" width="700" title="Bluetooth"></p>
+<p align="center"><img src="/Pictures/USB.png" width="700" title="USB"></p>
+<p align="center"><img src="/Pictures/Batterie.png" width="700" title="Batterie"></p>
+<p align="center"><img src="/Pictures/TouchPad.png" width="700" title="TouchPad"></p>
 
