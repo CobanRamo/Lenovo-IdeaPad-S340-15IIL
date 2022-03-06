@@ -83,19 +83,19 @@ save and exit.
   ##### <p align="center"> Grub menu only for ChromeOS, Ubuntu is launched directly from OpenCore</p>
   <p align="center"><img src="/Pictures/Grub BootMenu1.png" width="250" title="Grub Menu only for ChromeOS"></p>
   <p align="center"><img src="/Pictures/Ubuntu 21.10.png" width="350" title="Ubuntu 21.10"></p>
-<p align="center"> ChromeOS</p>
+     <p align="center"> ChromeOS</p>
   <p align="center"><img src="/Pictures/ChromeOS.png" width="350" title="ChromeOS Volteer"></p>
   <p align="center"><img src="/Pictures/ChromeOS_Panel.png" width="150" title="ChromeOS Volteer"> <img src="/Pictures/ChromeOS_Start.jpg" width="150" title="ChromeOS Volteer"> <img src="/Pictures/ChromeOS_Task.png" width="150" title="ChromeOS Volteer"> <img src="/Pictures/ChromeOS_Version.png" width="150" title="ChromeOS Volteer"></p>
-<p align="center"> Windows 10 & 11 Pro</p>
+     <p align="center"> Windows 10 & 11 Pro</p>
   <p align="center"><img src="/Pictures/Windows 10 Pro.PNG" width="250" title="Windows 10 Pro"> <img src="/Pictures/Windows 11 Pro.png" width="250" title="Windows 11 Pro"></p>
-<p align="center"> MacOS Catalina, BigSur & Monterey</p>
+     <p align="center"> MacOS Catalina, BigSur & Monterey</p>
   <p align="center"><img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"></p>
 
 
-<p align="center"><img src="/Pictures/Graphic.png" alt="My cool HackBook"/></p>
-<p align="center"><img src="/Pictures/Audio.png" alt="My cool HackBook"/></p>
-<p align="center"><img src="/Pictures/Bluetooth.png" alt="My cool HackBook"/></p>
-<p align="center"><img src="/Pictures/USB.png" alt="My cool HackBook"/></p>
-<p align="center"><img src="/Pictures/Batterie.png" alt="My cool HackBook"/></p>
-<p align="center"><img src="/Pictures/TouchPad.png" alt="My cool HackBook"/></p>
+<p align="center"><img src="/Pictures/Graphic.png" width="250" title="Graphic"></p>
+<p align="center"><img src="/Pictures/Audio.png" width="250" title="Audio"></p>
+<p align="center"><img src="/Pictures/Bluetooth.png" width="250" title="Bluetooth"></p>
+<p align="center"><img src="/Pictures/USB.png" width="250" title="USB"></p>
+<p align="center"><img src="/Pictures/Batterie.png" width="250" title="Batterie"></p>
+<p align="center"><img src="/Pictures/TouchPad.png" width="250" title="TouchPad"></p>
 
