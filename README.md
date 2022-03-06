@@ -91,7 +91,7 @@ save and exit.
 <p align="center"> MacOS Catalina, BigSur & Monterey</p>
   <p align="center"><img src="/Pictures/About this Mac Catalina.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Big Sur.png" width="250" title="About this Mac"> <img src="/Pictures/About this Mac Monterey.png" width="250" title="About this Mac"></p>
 
-<p align="center"><img src="/Pictures/SystemPrefences.png" alt="My cool HackBook"/></p>
+
 <p align="center"><img src="/Pictures/Graphic.png" alt="My cool HackBook"/></p>
 <p align="center"><img src="/Pictures/Audio.png" alt="My cool HackBook"/></p>
 <p align="center"><img src="/Pictures/Bluetooth.png" alt="My cool HackBook"/></p>
