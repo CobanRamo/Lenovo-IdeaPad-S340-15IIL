@@ -74,13 +74,16 @@ Power button to turn on → F2 to enter the normal BIOS → Power button to turn
 Turn on the power button → F2 enters the hidden Debug BIOS. 
 
 Then go to;<br>
-Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled
-<br>
-Then go to;<br>
-Advanced → System Agent (SA) Configuration → Graphic Configuration → DVMT Pre-Allocated Selection → DVMT Pre-Allocated → Set to 160MB
+Advanced → Power & Performance → CPU-Power Management Control → CPU Lock Configuration → CFG Lock → Disabled<br>
 
-save and exit.
-<br>
+Then go to;<br>
+Advanced → System Agent (SA) Configuration → Graphic Configuration → DVMT Pre-Allocated Selection → DVMT Pre-Allocated → Set to 160MB<br>
+
+save and exit.<br>
+
+There is a lot of customizable in the Debug Bios, just change the two points CPU-Lock & Graphic DVMT !!!!<br>
+With other points you break the system.
+
 <br>
 <br>
 
