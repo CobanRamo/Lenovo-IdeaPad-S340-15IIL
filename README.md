@@ -1,5 +1,5 @@
 # Lenovo IdeaPad S340-15IIL IceLake
-Lenovo IdeaPad S340-15IIL IceLake with OpenCore
+Lenovo IdeaPad S340-15IIL IceLake with OpenCore<br>
 Part Number : 81VW00C4GE
 
 
