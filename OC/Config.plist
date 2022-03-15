@@ -5,9 +5,9 @@
 	<key>#Information 1</key>
 	<string>This is a config.plist for Lenovo S340-15IIL IceLake by Cobanramo</string>
 	<key>#Information 2</key>
-	<string>OpenCore v0.7.8 Nigtly Config for "IceLake SMBIOS MacBookPro16,2"</string>
+	<string>OpenCore v0.7.9 Release Config for "IceLake SMBIOS MacBookPro16,2"</string>
 	<key>#Information 3</key>
-	<string>commit d246944bb09f0189455f8174ca14e38909cfbe8d</string>
+	<string>commit Release</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -645,7 +645,7 @@
 				<key>Comment</key>
 				<string>Patch engine</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/DebugEnhancer</string>
 				<key>MaxKernel</key>
@@ -897,7 +897,7 @@
 				<key>Comment</key>
 				<string>BlueToolFixup for only Monterey</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/BlueToolFixup</string>
 				<key>MaxKernel</key>
@@ -1157,6 +1157,8 @@
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
+				<key>Strategy</key>
+				<string>Disable</string>
 			</dict>
 		</array>
 		<key>Emulate</key>
@@ -1550,6 +1552,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -1558,7 +1562,68 @@
 			<integer>3</integer>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+			<dict>
+				<key>#Information</key>
+				<string>Hier ist es wichtig das der Path nicht auf "\EFI\BOOT\BOOTX64.efi" zeigt, der  BOOTX64.efi sollte vom "OpenCore" sein, Bei Windows Upgrade falls verändert vom "OpenCore" ersetzen. Für UEFI Windows ist die Path "\EFI\Microsoft\Boot\bootmgfw.efi"</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string>OpenCore Windows Custom Entries</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Windows10:Windows</string>
+				<key>Name</key>
+				<string>Windows 10 Pro (21H1)</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)/NVMe(0x1,88-CF-C0-91-3B-E4-D2-5C)/HD(1,GPT,658F6EE5-AD6D-41D3-843D-BBD0F4ADC6CD,0x800,0x82000)/\EFI\Microsoft\Boot\bootmgfw.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>#Information</key>
+				<string>Hier ist es wichtig das der Path nicht auf "\EFI\BOOT\BOOTX64.efi" zeigt, der BOOTX64.efi sollte vom "OpenCore" sein, Bei Linux Upgrade falls verändert vom "OpenCore" ersetzen. Für UEFI Linux ist die Path "\EFI\Ubuntu\shimx64.efi"</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string>OpenCore Linux Custom Entries</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>Ubuntu:Linux</string>
+				<key>Name</key>
+				<string>Ubuntu 20.04 LTS (FF)</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)/NVMe(0x1,88-CF-C0-91-3B-E4-D2-5C)/HD(1,GPT,658F6EE5-AD6D-41D3-843D-BBD0F4ADC6CD,0x800,0x82000)/\EFI\ubuntu\shimx64.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>#Information</key>
+				<string>Hier ist es wichtig das der Path nicht auf "\EFI\BOOT\BOOTX64.efi" zeigt, der BOOTX64.efi sollte vom "OpenCore" sein, Bei Linux Upgrade falls verändert vom "OpenCore" ersetzen. Für UEFI Linux ist die Path "\EFI\Ubuntu\shimx64.efi"</string>
+				<key>Arguments</key>
+				<string></string>
+				<key>Auxiliary</key>
+				<false/>
+				<key>Comment</key>
+				<string>OpenCore ChromeOS Custom Entries</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Flavour</key>
+				<string>ChromeOS:Linux</string>
+				<key>Name</key>
+				<string>ChromeOS (Volteer)</string>
+				<key>Path</key>
+				<string>PciRoot(0x0)/Pci(0x1D,0x4)/Pci(0x0,0x0)/NVMe(0x1,88-CF-C0-91-3B-E4-D2-5C)/HD(1,GPT,658F6EE5-AD6D-41D3-843D-BBD0F4ADC6CD,0x800,0x82000)/\EFI\ubuntu\shimx64.efi</string>
+				<key>TextMode</key>
+				<false/>
+			</dict>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1950,7 +2015,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 -noDC9 -v</string>
+				<string>-v keepsyms=1 -noDC9</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
@@ -2025,7 +2090,7 @@
 			<key>AdviseFeatures</key>
 			<true/>
 			<key>MLB</key>
-			<string>C02017300QXP8PG8C</string>
+			<string>M0000000000000001</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -2041,9 +2106,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02CMRY9ML7H</string>
+			<string>W00000000001</string>
 			<key>SystemUUID</key>
-			<string>B7DAC371-3B4E-42F3-8759-5515055DB25C</string>
+			<string>00000000-0000-0000-0000-000000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2287,7 +2352,7 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string>flags=0x0000038E</string>
+				<string></string>
 				<key>Comment </key>
 				<string>Linux Boot Loader mit deaktivierter ESP scan Flag</string>
 				<key>Enabled</key>
@@ -2299,7 +2364,7 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment </key>
-				<string>5227 Series PCI Express Card Reader (RTS522A) Bootable from OC</string>
+				<string>5227 Series PCI Express Card Reader (RTS522A)</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
