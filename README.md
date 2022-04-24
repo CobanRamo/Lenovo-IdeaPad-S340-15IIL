@@ -5,7 +5,7 @@ Part Number : 81VW00C4GE
 
 
 ```diff
-- Last working Bios version is currently CUCN27WW_71WW
+- Last working Bios version is currently cucn28ww_72ww
 
 ```
 
