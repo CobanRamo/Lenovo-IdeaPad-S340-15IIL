@@ -2235,9 +2235,9 @@
 			</dict>
 			<dict>
 				<key>Arguments</key>
-				<string></string>
+				<string>--restore-nosnoop</string>
 				<key>Comment</key>
-				<string></string>
+				<string>without the argument (--restore-nosnoop) there are delays and audio device errors at Windows startup since OC 0.7.9.</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
