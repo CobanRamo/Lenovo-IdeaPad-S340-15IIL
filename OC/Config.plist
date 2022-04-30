@@ -2237,7 +2237,7 @@
 				<key>Arguments</key>
 				<string>--restore-nosnoop</string>
 				<key>Comment</key>
-				<string>without the argument (--restore-nosnoop) there are delays and audio device errors at Windows startup since OC 0.7.9.</string>
+				<string>Without the argument (--restore-nosnoop) there are delays and audio device errors at Windows startup since OC 0.7.9.</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
