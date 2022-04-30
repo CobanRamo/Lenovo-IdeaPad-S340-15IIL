@@ -7,7 +7,7 @@
 	<key>#Information 2</key>
 	<string>OpenCore v0.8.0 Release Config for "IceLake SMBIOS MacBookPro16,2"</string>
 	<key>#Information 3</key>
-	<string>commit Release</string>
+	<string>Commit Release</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
