@@ -13,11 +13,11 @@ Part Number : 81VW00C4GE
 <img src="/Pictures/Lenovo IdeaPad S340-15IIL IceLake.png" alt="My cool HackBook"/>
 
 
-In work with a multi boot Oparating System  |°|°|°
-------------- | ------------- | ------------- | -------------
+In work with a multi boot Oparating System  |°|°|°|°
+------------- | ------------- | ------------- | -------------| -------------
 Windows  | Windows 10 Pro  | Windows 11 Pro  |  
 Linux  | Ubuntu 21.10  |   |
-MacOS  | Catalina  | Big Sur  | Monterey
+MacOS  | Catalina  | Big Sur  | Monterey| Ventura
 ChromeOS  | ChromeOS "Volteer"  |   |
 
 *TPM 2.0 chip is enabled for Windows 11, does not affect MacOS versions.<br>
