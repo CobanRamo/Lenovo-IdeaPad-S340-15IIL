@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleGetInfoString</key>
+	<string>2.8.0 Injector for IceLake NVMe &amp; Sata</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.cobanramo.nvme</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Injector for IceLake NVMe &amp; Sata</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.8.0 Injector for Icelake NVMe &amp; Sata</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2.8.0</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>IceLake NVMe</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IONVMeFamily</string>
+			<key>Chipset Name</key>
+			<string>IceLake NVMexpress Controller</string>
+			<key>IOClass</key>
+			<string>IONVMeController</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0xf1a88086</string>
+			<key>IOProbeScore</key>
+			<integer>9000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Physical Interconnect Location</key>
+			<string>Internal</string>
+			<key>Vendor Name</key>
+			<string>Apple</string>
+		</dict>
+		<key>IceLake Sata</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleAHCIPort</string>
+			<key>Chipset Name</key>
+			<string>Ice Lake-LP SATA Controller</string>
+			<key>IOClass</key>
+			<string>AppleAHCI</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x34d38086</string>
+			<key>IOProbeScore</key>
+			<integer>9000</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>Physical Interconnect Location</key>
+			<string>Internal</string>
+			<key>Vendor Name</key>
+			<string>Apple</string>
+		</dict>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 1995-2022 cobanramo. All rights reserved.</string>
+	<key>OSBundleRequired</key>
+	<string>Safe Boot</string>
+</dict>
+</plist>
